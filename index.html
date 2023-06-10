@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -14,172 +14,192 @@
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="logo">Dashboard</div>
+        <div class="nav-item logo">
+          <img class="icon" src="assets/icons/dashboard.svg" />
+          Dashboard
+        </div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-            <li></li>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/home.svg" />
+              Home
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/profile.svg" />
+              Profile
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/messages.svg" />
+              Messages
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/history.svg" />
+              History
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/tasks.svg" />
+              Tasks
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/communities.svg" />
+              Communities
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/settings.svg" />
+              Settings
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/support.svg" />
+              Support
+            </li>
+            <li class="nav-item">
+              <img class="icon" src="assets/icons/privacy.svg" />
+              Privacy
+            </li>
           </ul>
         </nav>
       </div>
-      <div class="header">
-        <div class="header-top">
-          <input class="search" title="search" name="q" type="search" />
-          <div class="notif">
-            <span class="material-symbols-outlined"> notifications </span>
-          </div>
-          <div class="avatar"></div>
-          <div class="name">User</div>
-        </div>
-        <div class="header-bottom">
-          <div class="greeting">
-            <div class="avatar"></div>
-            <p>Hi there,</p>
-            <div class="username">User (@username)</div>
-          </div>
-          <div class="controller">
-            <button>New</button><button>Upload</button><button>Share</button>
-          </div>
-        </div>
-      </div>
       <div class="main-content">
-        <div class="projects">
-          <h1>Projects</h1>
-          <div class="grid">
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
-            <article class="tile">
-              <h2>Some Project</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-                corporis assumenda eveniet tempora excepturi enim et, repellat
-                magnam, minima provident, alias placeat. Laudantium, dignissimos
-                impedit! Corporis maiores minus quis sequi!
-              </p>
-              <div class="buttons">
-                <button>Like</button>
-                <button>Follow</button>
-                <button>Share</button>
-              </div>
-            </article>
+        <div class="header">
+          <div class="header-top">
+            <div class="search">
+              <img class="icon" src="assets/icons/search.svg" />
+              <input title="search" name="q" type="search" />
+            </div>
+            <img class="icon" src="assets/icons/notifications.svg" />
+            <div class="avatar"></div>
+            <div class="name">User</div>
+          </div>
+          <div class="header-bottom">
+            <div class="greeting">
+              <div class="avatar"></div>
+              <p>Hi there,</p>
+              <div class="username">User (@username)</div>
+            </div>
+            <div class="controller">
+              <button>New</button><button>Upload</button><button>Share</button>
+            </div>
           </div>
         </div>
-        <div class="news">
-          <h1>News</h1>
-          <div class="grid">
-            <article>
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                voluptas assumenda. Hic ab temporibus laboriosam eos
-                reprehenderit doloremque amet. Repudiandae quod excepturi cum
-                vitae, esse perferendis. Ab recusandae vel atque?
-              </p>
-            </article>
-            <article>
-              <h2>Title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                voluptas assumenda. Hic ab temporibus laboriosam eos
-                reprehenderit doloremque amet. Repudiandae quod excepturi cum
-                vitae, esse perferendis. Ab recusandae vel atque?
-              </p>
-            </article>
+        <div class="grid">
+          <div class="projects">
+            <h1>Projects</h1>
+            <div class="grid">
+              <article class="card" class="card">
+                <h2>Project 1</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis corporis assumenda eveniet tempora excepturi enim et,
+                  repellat magnam, minima provident, alias placeat. Laudantium,
+                  dignissimos impedit! Corporis maiores minus quis sequi!
+                </p>
+                <div class="button-group">
+                  <img class="icon" src="assets/icons/star.svg" />
+                  <img class="icon" src="assets/icons/watch.svg" />
+                  <img class="icon" src="assets/icons/fork.svg" />
+                </div>
+              </article>
+              <article class="card">
+                <h2>Project 1</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis corporis assumenda eveniet tempora excepturi enim et,
+                  repellat magnam, minima provident, alias placeat. Laudantium,
+                  dignissimos impedit! Corporis maiores minus quis sequi!
+                </p>
+                <div class="button-group">
+                  <img class="icon" src="assets/icons/star.svg" />
+                  <img class="icon" src="assets/icons/watch.svg" />
+                  <img class="icon" src="assets/icons/fork.svg" />
+                </div>
+              </article>
+              <article class="card">
+                <h2>Project 1</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis corporis assumenda eveniet tempora excepturi enim et,
+                  repellat magnam, minima provident, alias placeat. Laudantium,
+                  dignissimos impedit! Corporis maiores minus quis sequi!
+                </p>
+                <div class="button-group">
+                  <img class="icon" src="assets/icons/star.svg" />
+                  <img class="icon" src="assets/icons/watch.svg" />
+                  <img class="icon" src="assets/icons/fork.svg" />
+                </div>
+              </article>
+              <article class="card">
+                <h2>Project 1</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis corporis assumenda eveniet tempora excepturi enim et,
+                  repellat magnam, minima provident, alias placeat. Laudantium,
+                  dignissimos impedit! Corporis maiores minus quis sequi!
+                </p>
+                <div class="button-group">
+                  <img class="icon" src="assets/icons/star.svg" />
+                  <img class="icon" src="assets/icons/watch.svg" />
+                  <img class="icon" src="assets/icons/fork.svg" />
+                </div>
+              </article>
+              <article class="card">
+                <h2>Project 1</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Omnis corporis assumenda eveniet tempora excepturi enim et,
+                  repellat magnam, minima provident, alias placeat. Laudantium,
+                  dignissimos impedit! Corporis maiores minus quis sequi!
+                </p>
+                <div class="button-group">
+                  <img class="icon" src="assets/icons/star.svg" />
+                  <img class="icon" src="assets/icons/watch.svg" />
+                  <img class="icon" src="assets/icons/fork.svg" />
+                </div>
+              </article>
+            </div>
           </div>
-        </div>
-        <div class="trending">
-          <h1>Trending</h1>
-          <div class="flex">
-            <div class="user">
-              <div class="avatar"></div>
-              <div class="username">@someone</div>
-              <div class="name">Someone</div>
+          <div class="announcements">
+            <h1>Announcements</h1>
+            <div class="flex card">
+              <article>
+                <h2>Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                  voluptas assumenda. Hic ab temporibus laboriosam eos
+                  reprehenderit doloremque amet. Repudiandae quod excepturi cum
+                  vitae, esse perferendis. Ab recusandae vel atque?
+                </p>
+              </article>
+              <article>
+                <h2>Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                  voluptas assumenda. Hic ab temporibus laboriosam eos
+                  reprehenderit doloremque amet. Repudiandae quod excepturi cum
+                  vitae, esse perferendis. Ab recusandae vel atque?
+                </p>
+              </article>
             </div>
-            <div class="user">
-              <div class="avatar"></div>
-              <div class="username">@someone</div>
-              <div class="name">Someone</div>
-            </div>
-            <div class="user">
-              <div class="avatar"></div>
-              <div class="username">@someone</div>
-              <div class="name">Someone</div>
+          </div>
+          <div class="trending">
+            <h1>Trending</h1>
+            <div class="flex card">
+              <div class="user">
+                <div class="avatar"></div>
+                <div class="username">@someone</div>
+                <div class="name">Someone</div>
+              </div>
+              <div class="user">
+                <div class="avatar"></div>
+                <div class="username">@someone</div>
+                <div class="name">Someone</div>
+              </div>
+              <div class="user">
+                <div class="avatar"></div>
+                <div class="username">@someone</div>
+                <div class="name">Someone</div>
+              </div>
             </div>
           </div>
         </div>
